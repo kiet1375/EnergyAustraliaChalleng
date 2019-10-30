@@ -1,0 +1,10 @@
+C:\Users\kmlam\source\repos\Festivals\Festivals\bin\Debug\Festivals.exe.config
+C:\Users\kmlam\source\repos\Festivals\Festivals\bin\Debug\Festivals.exe
+C:\Users\kmlam\source\repos\Festivals\Festivals\bin\Debug\Festivals.pdb
+C:\Users\kmlam\source\repos\Festivals\Festivals\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kmlam\source\repos\Festivals\Festivals\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kmlam\source\repos\Festivals\Festivals\obj\Debug\Festivals.csproj.CoreCompileInputs.cache
+C:\Users\kmlam\source\repos\Festivals\Festivals\obj\Debug\Festivals.csproj.CopyComplete
+C:\Users\kmlam\source\repos\Festivals\Festivals\obj\Debug\Festivals.exe
+C:\Users\kmlam\source\repos\Festivals\Festivals\obj\Debug\Festivals.pdb
+C:\Users\kmlam\source\repos\Festivals\Festivals\obj\Debug\Festivals.csprojAssemblyReference.cache
