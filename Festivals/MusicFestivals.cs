@@ -55,7 +55,6 @@ namespace Festivals
         private List<RequiredFormat> requiredFormat = new List<RequiredFormat>();
         private List<string> recordLabel = new List<string>();
 
-
         public bool GetApi()
         {
             try{
@@ -119,8 +118,7 @@ namespace Festivals
                                 names.Add(value.Name);
                                 festivals = new List<string>();
                                 festivals.Add(musicFestival.Name);
-                                band = new RequiredBand
-                                {
+                                band = new RequiredBand{
                                     BandName = value.Name,
                                     FestivalNames = festivals
                                 };
@@ -132,6 +130,7 @@ namespace Festivals
                                         List<string> temp = new List<string>();
                                         temp = bands[i].FestivalNames;
                                         temp.Add(musicFestival.Name);
+                                        temp.Sort();
                                         bands[i].FestivalNames = temp;
                                     }
                                 }
@@ -165,16 +164,6 @@ namespace Festivals
                     }
                 }
             }
-            return requiredFormat;
-        }
-
-        private List<RequiredFormat> SortByFestives(List<RequiredFormat> requiredFormat)
-        {
-            foreach(var format in requiredFormat)
-                for(int i = 0; i < format.RequiredBands.Length; i++)
-                    if(format.RequiredBands[i].FestivalNames.Count > 1)
-                        format.RequiredBands[i].FestivalNames.Sort();
-
             return requiredFormat;
         }
 
