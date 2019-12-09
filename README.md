@@ -2,7 +2,7 @@
 
 MusicFestival
 
-API get for Energy Australia coding challenge. The application sorts the data by record labels, band names, and sorts fetivals of each band if quantity is greater than 2.
+API get for Energy Australia coding challenge. The application sorts the data by record labels, band names, and sorts festivals of each band if quantity is greater than 2.
 
 Application receives JSON object array in the form of,
 
